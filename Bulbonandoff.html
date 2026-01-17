@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  #myImage {
+    width: 350px;
+    height: 350px;
+    object-fit: contain;
+  }
+</style>
+</head>
+
+<body>
+
+<h2>Light ON / OFF using Same Button</h2>
+<p>I have developed a bulb control feature where the same button is used to turn the bulb on and off.</p>
+
+<img id="myImage" src="bulb_off.jpg"><br><br>
+
+<button onclick="toggleLight()">Turn ON</button>
+
+<script>
+function toggleLight() {
+    let image = document.getElementById("myImage");
+
+    if (image.src.includes("bulb_off.jpg")) {
+        image.src = "bulb_on.jpg";
+        event.target.innerText = "Turn OFF";
+    } else {
+        image.src = "bulb_off.jpg";
+        event.target.innerText = "Turn ON";
+    }
+}
+</script>
+</body>
+</html>
