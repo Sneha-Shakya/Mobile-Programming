@@ -1,13 +1,13 @@
 function checkResult() {
   let totalMarks =
-    Number(document.getElementById("s1").value) +
-    Number(document.getElementById("s2").value) +
-    Number(document.getElementById("s3").value) +
-    Number(document.getElementById("s4").value) +
-    Number(document.getElementById("s5").value) +
-    Number(document.getElementById("s6").value) +
-    Number(document.getElementById("s7").value) +
-    Number(document.getElementById("s8").value);
+    Number(document.getElementById("Sub1").value) +
+    Number(document.getElementById("Sub2").value) +
+    Number(document.getElementById("Sub3").value) +
+    Number(document.getElementById("Sub4").value) +
+    Number(document.getElementById("Sub5").value) +
+    Number(document.getElementById("Sub6").value) +
+    Number(document.getElementById("Sub7").value) +
+    Number(document.getElementById("Sub8").value);
 
   let totalBox = document.getElementById("total");
   totalBox.innerHTML = "Total Marks: " + totalMarks + " / 800";
