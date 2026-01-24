@@ -1,5 +1,5 @@
 body {
-    background-color: pink;
+    background-color: burlywood;
 }
 
 .imageone {
@@ -11,14 +11,14 @@ body {
     width: 25%;
 }
 
-/* 400px – 759px → 2 columns */
+
 @media only screen and (max-width: 759px) {
     .imageone img {
         width: 50%;
     }
 }
 
-/* Less than 400px → 1 column */
+
 @media only screen and (max-width: 399px) {
     .imageone img {
         width: 100%;
